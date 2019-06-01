@@ -1,9 +1,9 @@
-# gloc
+# gosloc
 
-`gloc` is a "lines of code" counter for Golang. It produces output like this:
+`gosloc` is a "lines of code" counter for Golang. It produces output like this:
 
 ```
-$ gloc github.com/lib/pq/
+$ gosloc github.com/lib/pq/
 Scanned 40 go files in github.com/lib/pq/:
   Source lines:    5143 (75.2%)
   Comment lines:   908 (13.3%)
@@ -26,21 +26,21 @@ For example, we can compare three popular PostgreSQL libraries for Go using this
 tool:
 
 ```
-$ gloc github.com/go-pg/pg/
+$ gosloc github.com/go-pg/pg/
 Scanned 144 go files in github.com/go-pg/pg/:
   Source lines:    13170 (81.2%)
   Comment lines:   568 (3.5%)
   Blank lines:     2486 (15.3%)
   Test lines:      8005 (0.61 per line of code)
   Total file size: 0.54 Mb
-$ gloc github.com/jackc/pgx/
+$ gosloc github.com/jackc/pgx/
 Scanned 251 go files in github.com/jackc/pgx/:
   Source lines:    22145 (79.4%)
   Comment lines:   1356 (4.9%)
   Blank lines:     4396 (15.8%)
   Test lines:      16911 (0.76 per line of code)
   Total file size: 1.12 Mb
-$ gloc github.com/lib/pq/
+$ gosloc github.com/lib/pq/
 Scanned 40 go files in github.com/lib/pq/:
   Source lines:    5143 (75.2%)
   Comment lines:   908 (13.3%)
